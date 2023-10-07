@@ -38,7 +38,7 @@ const searchMeal = () => {
   //console.log(searchText);
 
 }
-loadMeals('rice');
+loadMeals('fish');
 
 const loadMealDetail = (idMeal) => {
   const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`;
